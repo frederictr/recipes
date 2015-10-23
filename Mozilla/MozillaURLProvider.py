@@ -27,7 +27,7 @@ from autopkglib import Processor, ProcessorError
 __all__ = ["MozillaURLProvider"]
 
 
-MOZ_BASE_URL = "http://ftp.mozilla.org/pub/mozilla.org"
+MOZ_BASE_URL = "http://ftp.mozilla.org/pub"
                #"firefox/releases")
 RE_DMG = re.compile(r'a[^>]* href="(?P<filepath>[^"]+\.dmg)"')
 
